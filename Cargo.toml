@@ -8,7 +8,7 @@ description = "A cargo plugin to run your cargo tests in lldb"
 repository = "https://github.com/tw-ilson/cargo-lldb-test"
 readme = "README.md"
 keywords = ["cargo", "plugin", "lldb", "test", "debug"]
-categories = ["development-tools::debugging", "development-tools::cargo", "development-tools::testing"]
+categories = ["development-tools::debugging", "development-tools::testing"]
 
 
 [dependencies]
