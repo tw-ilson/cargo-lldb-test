@@ -1,0 +1,15 @@
+[package]
+name = "cargo-lldb-test"
+version = "0.1.0"
+edition = "2021"
+authors = ["Tom Wilson <wilson.th@northeastern.edu>"]
+license = "MIT OR Apache-2.0"
+description = "A cargo plugin to run your cargo tests in lldb"
+repository = "https://github.com/yourusername/cargo-lldb-test"
+readme = "README.md"
+keywords = ["cargo", "plugin", "lldb", "test", "debug"]
+categories = ["development-tools::debugging", "development-tools::cargo", "development-tools::testing"]
+
+
+[dependencies]
+serde_json = "1.0.133"
